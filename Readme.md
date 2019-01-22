@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Alexey Akutin](https://up.htmlacademy.ru/htmlcss/24/user/973763).
-* Наставник: `Александр Уразаев`.
+* Наставник: [Александр Уразаев](https://htmlacademy.ru/profile/urazaev).
 
 ---
 
