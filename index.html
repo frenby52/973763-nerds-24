@@ -7,7 +7,7 @@
   <body>
 <header class="main-header">
   <nav  class="main-navigation">
-    <a class="main-header-logo" href="index.html">
+    <a class="main-header-logo">
       <img src="" alt="Логотип дизайн-студии nёrd's" width="" height="">
     </a>
     <ul class="main-navigation-site">
@@ -15,9 +15,7 @@
       <li><a href="#">Клиенты</a></li>
       <li><a href="catalog.html">Магазин</a></li>
       <li><a href="#">Контакты</a></li>
-    </ul>
-    <ul class="main-navigation-basket">
-      <li>Корзина</li>
+      <li class="main-navigation-basket">Корзина</li>
     </ul>
   </nav>
 </header>
@@ -62,25 +60,18 @@
   <section class="about-us">
     <p class="about-us-logo"><img src="" alt="Логотип дизайн-студии nёrd's" width="" height=""></p>
     <h2>С 2004 года любим точность во всем:</h2>
-    <ul class="about-us-list">
-      <li class="about-us-item">
-        <!-- были еще варианты <p><b>146%</b> Уровень самоотдачи</p> или <b>146%</b><p>Уровень самоотдачи</p>. Как лучше сделать?-->
-        <p class="about-us-number">146%</p>
-        <p class="about-us-text">Уровень самоотдачи</p>
-      </li>
-    </ul>
-    <ul class="about-us-list">
-      <li class="about-us-item">
-        <p class="about-us-number">100%</p>
-        <p class="about-us-text">Соблюдение сроков</p>
-      </li>
-    </ul>
-    <ul class="about-us-list">
-      <li class="about-us-item">
-        <p class="about-us-number">50%</p>
-        <p class="about-us-text">Минимальная предоплата</p>
-      </li>
-    </ul>
+    <table class="about-us-table">
+      <tr class="about-us-number">
+        <td>146%</td>
+        <td>100%</td>
+        <td>50%</td>
+      </tr>
+      <tr class="about-us-text">
+        <td>Уровень самоотдачи</td>
+        <td>Соблюдение сроков</td>
+        <td>Минимальная предоплата</td>
+      </tr>
+    </table>
   </section>
   <section class="portfolio">
     <h2 class="visually hidden">Наши работы</h2>
@@ -110,17 +101,14 @@
 </main>
 <footer class="main-footer">
   <div class="footer-map">
-    <a href="#">
       <img src="" alt="Карта" width="" height="">
-    </a>
   </div>
   <div class="footer-contacts">
     <h2>Nёrds design studio</h2>
-    <p>191186, Санкт-Петербург,<br>
-      ул. Б. Конюшенная, д. 19/8</p>
+    <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
     <p>тел. +7 (812) 275-75-75</p>
     <a class="button" href="#">Напишите нам</a>
-  </div>+
+  </div>
   <div class="footer-social">
     <ul>
       <li><a class="social-button" href="#">Вконтакте</a></li>
