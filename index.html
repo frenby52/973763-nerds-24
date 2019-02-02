@@ -15,17 +15,26 @@
       <li><a href="#">Клиенты</a></li>
       <li><a href="catalog.html">Магазин</a></li>
       <li><a href="#">Контакты</a></li>
-      <li class="main-navigation-basket">Корзина</li>
+      <li><a href="#" class="main-navigation-basket">Корзина</a></li>
     </ul>
   </nav>
 </header>
 <main class="container">
   <h1 class="visually hidden">Дизайн-студия nёrd's</h1>
   <section class="slider">
-    <!-- здесь будет блок слайдера
+    <!-- слайдер1 -->
     <h2 class="slider-header">Долго, дорого,<br>скрупулезно.</h2>
     <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-    <a class="button" href="#">Узнать больше</a> -->
+    <a class="button" href="#">Узнать больше</a>
+    <!-- слайдер2 -->
+    <h2 class="slider-header">Любим математику<br>как никто другой</h2>
+    <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+    <a class="button" href="#">Узнать больше</a>
+    <!-- слайдер3 -->
+    <h2 class="slider-header">Только ночь,<br>только хардкор</h2>
+    <p>Работать днем, как все? Мы против этого.</p>
+    <p>Ближе к полуночи работа только начинается.</p>
+    <a class="button" href="#">Узнать больше</a>
   </section>
   <section class="features">
     <h2 class="visually hidden">Наши услуги</h2>
@@ -122,5 +131,22 @@
     <p class="footer-social-text">Скидка 10% для друзей из социальных сетей</p>
   </div>
 </footer>
+<section class="modal-write-us">
+  <h2>Напишите нам</h2>
+  <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
+    <p>
+      <label for="name">Ваше имя:</label>
+      <input type="text" class="write-us-input" name="name" placeholder="Имя Фамилия" id="name">
+      <label for="e-mail">Ваш e-mail:</label>
+      <input type="text" class="write-us-input" name="e-mail" placeholder="email@example.com" id="e-mail">
+    </p>
+    <p>
+      <label for="letter-content">Текст письма:</label>
+      <textarea name="name" rows="5" name="letter-content" id="letter-content" placeholder="В свободной форме"></textarea>
+    </p>
+    <button class="button" type="submit">Отправить</button>
+  </form>
+  <button class="modal-close" type="button">Закрыть</button>
+</section>
   </body>
 </html>
