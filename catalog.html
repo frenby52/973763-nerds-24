@@ -32,10 +32,10 @@
         </p>
         <ul>
           <li class="filter-price">
-            <label>От<input class="price-input" type="text" name="price-min" value="0"></label>
+            <label>От<input class="price-input" type="number" min="0" step="1" name="price-min" value="0"></label>
           </li>
           <li class="filter-price">
-            <label>До<input class="price-input" type="text" name="price-max" value="15000"></label>
+            <label>До<input class="price-input" type="number" min="0" step="1" name="price-max" value="15000"></label>
           </li>
         </ul>
       </fieldset>
@@ -131,9 +131,9 @@
   </div>
   <div class="footer-social">
     <ul>
-      <li><a class="social-button" href="#">Вконтакте</a></li>
-      <li><a class="social-button" href="#">Фейсбук</a></li>
-      <li><a class="social-button" href="#">Инстаграм</a></li>
+      <li><a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
+      <li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+      <li><a class="social-button" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
     </ul>
     <p class="footer-social-title">Давайте дружить, это выгодно!</p>
     <p class="footer-social-text">Скидка 10% для друзей из социальных сетей</p>
@@ -150,7 +150,7 @@
     </p>
     <p>
       <label for="letter-content">Текст письма:</label>
-      <textarea name="name" rows="5" name="letter-content" id="letter-content" placeholder="В свободной форме"></textarea>
+      <textarea rows="5" name="letter-content" id="letter-content" placeholder="В свободной форме"></textarea>
     </p>
     <button class="button" type="submit">Отправить</button>
   </form>
