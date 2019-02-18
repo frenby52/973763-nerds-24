@@ -1107,7 +1107,7 @@ opacity: 0.3;
   bottom: 0px;
   left: 0;
   width:360px;
-  height: 231px;
+  /* height: 231px; */
   background-color: #eeeeee;
   text-align: center;
 }
@@ -1142,13 +1142,14 @@ opacity: 0.3;
   width: 200px;
 }
 
-.catalog-item-popup3 p{
+.catalog-item-popup3 p {
   width: 180px;
 }
 
 .catalog-item-popup .button {
   box-sizing: border-box;
   width: 200px;
+  margin-bottom: 42px;
 }
 
 .catalog-item:hover .catalog-item-popup,
