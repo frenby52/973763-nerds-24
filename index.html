@@ -9,7 +9,7 @@
   </head>
   <body>
 <header class="main-header">
-  <nav  class="main-navigation">
+  <nav  class="main-navigation main-page-navigation">
     <a class="main-header-logo">
       <img src="img/nerds-logo.svg" alt="Логотип дизайн-студии nёrd's" width="160" height="65">
     </a>
@@ -22,23 +22,32 @@
     </ul>
   </nav>
   <section class="slider">
-    <!-- слайдер1 -->
-    <div class="slider-column-info">
-      <h2 class="slider-header">Долго, дорого,<br>скрупулезно.</h2>
-      <p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
-      <a class="button slider-button" href="#">Узнать больше</a>
+    <h2 class="visually-hidden">Преимущества</h2>
+    <input class="visually-hidden slider-toggle-1" type="radio" id="product-1" name="toggle" checked>
+    <input class="visually-hidden slider-toggle-2" type="radio" id="product-2" name="toggle">
+    <input class="visually-hidden slider-toggle-3" type="radio" id="product-3" name="toggle">
+    <div class="slider-controls">
+      <label for="product-1">Первый слайд</label>
+      <label for="product-2">Второй слайд</label>
+      <label for="product-3">Третий слайд</label>
     </div>
-    <div class="slider-column-slides">
-      <img src="img/slide1.png" alt="Слайд Долго, дорого, скрупулезно" width="690" height="413">
-    </div>
-    <!-- слайдер2 -->
-    <!-- <h2 class="slider-header">Любим математику как никто другой</h2>
-    <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-    <a class="button" href="#">Узнать больше</a> -->
-    <!-- слайдер3 -->
-    <!-- <h2 class="slider-header">Только ночь,<br>только хардкор</h2>
-    <p>Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
-    <a class="button" href="#">Узнать больше</a> -->
+    <ul class="slider-list">
+      <li class="slider-item">
+        <h3 class="slider-header">Долго, дорого,<br>скрупулезно.</h3>
+        <p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
+        <a class="button slider-button" href="#">Узнать больше</a>
+      </li>
+      <li class="slider-item">
+        <h3 class="slider-header">Любим математику как никто другой</h3>
+        <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+        <a class="button slider-button" href="#">Узнать больше</a>
+      </li>
+      <li class="slider-item">
+        <h3 class="slider-header">Только ночь,<br>только хардкор</h3>
+        <p>Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
+        <a class="button slider-button" href="#">Узнать больше</a>
+      </li>
+    </ul>
   </section>
 </header>
 <main>
