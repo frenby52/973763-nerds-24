@@ -907,39 +907,49 @@ opacity: 0.3;
   background-color: #eeeeee;
 }
 
-.range-controls .scale {
+.range-controls::before,
+.range-controls::after {
+  position: absolute;
+  content: "";
+  top: 39px;
+  left: 21px;
+  padding: 0;
+}
+
+.range-controls::before {
+  content: "";
+  width: 219px;
   height: 2px;
   background: #d7dcde;
 }
 
-.range-controls .bar {
+.range-controls::after {
+  content: "";
   width: 152px;
   height: 2px;
   background: #00ca74;
 }
 
-.range-controls::before,
-.range-controls::after {
+.range-controls .toggle {
   position: absolute;
-  content: "";
   top: 31px;
-  width: 4px;
-  height: 4px;
+  width: 20px;
+  height: 23px;
   padding: 0;
-  border: 8px solid #ffffff;
-  background-color: #ababab;
-  box-shadow: 0 2px 1px 0 #cfcfcf;
+  border: none;
   border-radius: 50%;
   cursor: pointer;
+  background-image: url("../img/filter-button.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  z-index: 2;
 }
 
-.range-controls::before {
-  content: "";
+.range-controls .toggle-min {
   left: 17px;
 }
 
-.range-controls::after {
-  content: "";
+.range-controls .toggle-max {
   left: 159px;
 }
 
@@ -1074,6 +1084,13 @@ opacity: 0.3;
 .filter-input-radio:disabled + label::before,
 .filter-input-checkbox:disabled + label::after,
 .filter-input-radio:disabled + label::after {
+  opacity: 0.1;
+}
+
+.filter-input-checkbox:checked:disabled + label::before,
+.filter-input-radio:checked:disabled + label::before,
+.filter-input-checkbox:checked:disabled + label::after,
+.filter-input-radio:checked:disabled + label::after {
   opacity: 0.1;
 }
 
