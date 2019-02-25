@@ -636,7 +636,7 @@ border: none;
   height: 416px;
   /* background-color: #b5b5b5; */
   /* background-color: #eeeeee; */
-  background: no-repeat url("../img/footer-map.png") 50% 50%;
+  background: #eeeeee no-repeat url("../img/footer-map.png") 50% 50%;
 }
 
 .footer-map iframe {
@@ -1386,12 +1386,11 @@ opacity: 0.3;
 .modal-write-us {
   display: none;
   position: fixed;
-  bottom: 110px;
-  /* top: 50%;
-  margin-top: -295px; */
+  /* bottom: 110px; */
+  top: 50%;
   left: 50%;
   margin-left: -480px;
-  /* margin-top: -295px; */
+  margin-top: -295px;
   box-sizing: border-box;
   /* margin-left: auto;
   margin-right: auto;
